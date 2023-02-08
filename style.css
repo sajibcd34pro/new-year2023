@@ -12,6 +12,7 @@ header{
     background-size: cover;
     background-position: center;
     padding: 226px 10%;
+    margin-bottom: 300px;
 }
 .btn-primary{
     color: #FFFFFF;
@@ -39,4 +40,156 @@ header{
     font-style: 16px;
     line-height: 20px;
     color:#444343;
+}
+
+/* failure */
+.failure{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-bottom: 130px;
+}
+.person{
+     border-radius: 50%;
+    height: 527.93px;
+    width: 527.93px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F15B2233; 
+  /* background-color: #F15B22; */
+   
+}
+
+.person img{
+   position: relative;
+   top: -100px;
+   width: auto;
+}
+.reason-title{
+    margin-bottom: 16px;
+}
+.reason-dsc{
+    margin-bottom: 16px;
+}
+.reason-dsc p{
+    line-height:26px ;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.reason h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.quotes{
+    list-style: none;
+}
+.ticks{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.quotes p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #444343;
+}
+.tick{
+    width: 20px;
+    color: #16D887;
+}
+
+
+/* plans */
+.plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill{
+    text-align: center;
+    line-height: 50px;
+}
+.skill p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+.skill-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan{
+    margin-bottom: 120px;
+}
+
+/* mindset */
+
+.mindset{
+    /* width: 1140px; */
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    margin-left: 205px;
+    margin-right: 205px;
+    /* width: 100%; */
+    margin-bottom: 80px;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.mindset-dsc{
+ /* margin: 140px 40px;     */
+ padding: 80px 30px;
+margin-left: 60px;
+}
+.mindset-title{
+    color:#FFFF;
+    font-weight: 700;
+    font-size: 40px;
+   
+}
+
+.mindset-btn{
+    color: #F15B22;
+    padding: 21px 36px;
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* footer */
+footer{
+    background: #151414;
+}
+input[type="text"]{
+    padding:10px;
+    width: 256px;
+    height: 44px;
+    background-color: #151414;
+    outline: none;
+    border: 1px solid teal;
+    border-radius: 5px;
+}
+input[type="text"]::placeholder{
+    color:#fff;
+    text-align: left;
+}
+footer h1, p , label{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
 }
