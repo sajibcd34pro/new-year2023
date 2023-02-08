@@ -174,10 +174,14 @@ margin-left: 60px;
 /* footer */
 footer{
     background: #151414;
+     display: flex;
+     justify-content: space-around;
+     padding-top:90px ;
+     padding-bottom:90px ;
 }
 input[type="text"]{
     padding:10px;
-    width: 256px;
+    width: 325px;
     height: 44px;
     background-color: #151414;
     outline: none;
@@ -187,9 +191,39 @@ input[type="text"]{
 input[type="text"]::placeholder{
     color:#fff;
     text-align: left;
-}
-footer h1, p , label{
-    color:#fff;
     font-size: 18px;
     font-weight: 400;
+    margin-left: 5px;
+}
+footer h1, p , label{
+    color:#FFFFFFff;
+    
+}
+label{
+    font-weight: 600;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-dsc{
+    margin-bottom: 16px;
+}
+.email-phone{
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.footer-icons{
+    display: flex;
+    gap:15px
 }
